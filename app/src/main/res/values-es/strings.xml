@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">User List</string>
+    <string name="search">Buscar en Google Maps</string>
+    <string name="contact">Llamar</string>
+    <string name="user_list">!Lista de Usuarios!</string>
+</resources>

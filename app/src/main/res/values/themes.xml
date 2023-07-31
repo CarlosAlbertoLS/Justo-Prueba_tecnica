@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UserList" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_v</item>
+        <item name="fontFamily">@font/josefin_sans</item>
+    </style>
+
+    <style name="Theme.UserList" parent="Base.Theme.UserList" />
+
+    <style name="TodoTitle">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/primary_variant</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/users_logo</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.UserList</item>
+    </style>
+
+</resources>
