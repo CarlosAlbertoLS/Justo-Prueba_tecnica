@@ -64,8 +64,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/ivUserPhotoDetail"
         app:layout_constraintTop_toBottomOf="@id/ivUserPhotoDetail"
-        android:textSize="16sp"
-        android:layout_marginTop="32dp"
+        style="@style/TodoSubTitle"
         app:drawableStartCompat="@drawable/ic_email" />
 
     <TextView
@@ -74,8 +73,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/ivUserPhotoDetail"
         app:layout_constraintTop_toBottomOf="@id/tvEmailDetail"
-        android:textSize="16sp"
-        android:layout_marginTop="32dp"
+        style="@style/TodoSubTitle"
         app:drawableStartCompat="@drawable/ic_gender" />
 
     <TextView
@@ -84,8 +82,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/ivUserPhotoDetail"
         app:layout_constraintTop_toBottomOf="@id/tvGenderDetail"
-        android:textSize="16sp"
-        android:layout_marginTop="32dp"
+        style="@style/TodoSubTitle"
         app:drawableStartCompat="@drawable/ic_smartphone" />
 
     <TextView
@@ -94,8 +91,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/ivUserPhotoDetail"
         app:layout_constraintTop_toBottomOf="@id/tvPhoneDetail"
-        android:textSize="16sp"
-        android:layout_marginTop="32dp"
+        style="@style/TodoSubTitle"
         app:drawableStartCompat="@drawable/ic_map" />
 
     <Button
@@ -106,9 +102,7 @@
         app:layout_constraintTop_toBottomOf="@id/tvMapDetail"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/search"
-        style="@style/textButton"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp" />
+        style="@style/textButton" />
 
     <Button
         android:id="@+id/btnCall"
